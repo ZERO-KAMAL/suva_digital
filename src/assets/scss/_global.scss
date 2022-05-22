@@ -1,0 +1,24 @@
+body {
+    background-color: $white-color;
+    font-family: $main-font-family;
+    font-size: 1rem;
+    color: $paragraph-color;
+}
+p {
+    margin-bottom: 0px;
+    line-height: 1.8;
+    color: $paragraph-color;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+img,
+svg {
+    vertical-align: middle;
+}
